@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-weight: lighter;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.headline {
+    font-weight: lighter;
+    color: #222;
+}
+
+input[type="search"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.footer {
+    margin: 50px 0;
+    text-align: right;
+}
+
+.search-item {
+    margin: 30px 0;
+}

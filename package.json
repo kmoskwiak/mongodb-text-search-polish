@@ -1,0 +1,31 @@
+{
+  "name": "search-text-mongodb",
+  "version": "1.0.0",
+  "description": "Przeszukiwanie bazy danych w języku polskim",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "stemming",
+    "text",
+    "search",
+    "polski",
+    "polish"
+  ],
+  "author": "Kasper Moskwiak",
+  "license": "MIT",
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}
